@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
+    background: linear-gradient(#e9f0ef, #2ea0b4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 59px;
+    color: rgb(39, 133, 170);
+    text-align: center;
+}
+.bmt,
+.bmt1 {
+    width: 150px;
+    height: 100px;
+    border-radius: 20%;
+    border: #105d6d solid 1px;
+    background: #97d4f8;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.block {
+    text-align: center;
+}
